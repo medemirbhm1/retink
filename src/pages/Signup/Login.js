@@ -10,15 +10,10 @@ function Login() {
   const [password, setPassword] = useState("");
   function handleSubmit(e) {
     e.preventDefault();
-    signInWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Logged in
-        console.log(userCredential);
-      })
-      .catch((error) => {
-        const errorMessage = error.message;
-        alert(errorMessage);
-      });
+    signInWithEmailAndPassword(auth, email, password).catch((error) => {
+      const errorMessage = error.message;
+      alert(errorMessage);
+    });
   }
   return (
     <div className="auth">
