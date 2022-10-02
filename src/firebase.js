@@ -5,9 +5,9 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_SANITY_API_KEY,
+  apiKey: "AIzaSyCjNY7oE5-3Qt9vTzQ1DS7pJdu07SLfB1A",
   authDomain: "retlink-11bd6.firebaseapp.com",
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  projectId: "retlink-11bd6",
   storageBucket: "retlink-11bd6.appspot.com",
   messagingSenderId: "83289468838",
   appId: "1:83289468838:web:321f20fa88e1f947fc6967",
