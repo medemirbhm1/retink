@@ -190,7 +190,7 @@ function Home() {
             <button className="btn-solid" type="submit">
               Notify me
             </button>
-            <button className="btn-reg" type="button">
+            <button className="btn-reg" type="button" onClick={()=>navigate("/signup")}>
               Sign up as a freelance partner
             </button>
           </form>
